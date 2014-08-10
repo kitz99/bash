@@ -1,0 +1,14 @@
+#!/bin/bash
+# operatii aritmetice
+
+
+echo -e '\033[34;42mColor Text\033[0m'
+echo "Error message"
+
+flashred="\033[5;31;40m"
+red="\033[31;40m"
+none="\033[0m
+
+echo -e "\033[5;31;40mERROR: \033[0m\033[31;40mSomething went wrong.\033[0m"
+
+
