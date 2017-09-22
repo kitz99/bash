@@ -1,0 +1,36 @@
+======
+Filesystem
+======
+  Starts at root (/)
+  /etc -> configurations
+  /dev -> devices ---> All devices are listed here
+  /home -> users area
+  /usr -> universal system resources
+  /var -> logs or temporary data
+
+
+pushd -> used to switch between 2 directories
+popd
+touch /path/to/existing/file --> change the modified date
+
+
+======
+Text Files
+======
+cat -> concatenate
+echo "text" >> /path/to/file  -> Append a line to a file
+
+======
+File Permissions
+======
+755 -> Owner of the file | Group | Others
+7 -> rwx
+5 -> rx
+6 -> rw
+4 -> r
+3 -> wx
+2 -> w
+1 -> x
+0 -> NONE
+
+
